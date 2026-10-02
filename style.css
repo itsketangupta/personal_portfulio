@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: #fbfbfb;
+    color: #d7d8d8;
+    border-bottom: 1px solid #ccc;
+    height: 2.5rem;
+    display: flex;
+    padding: 0 10rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #d4d7dd;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+.right {
+    display: flex;
+    margin-left: auto;
+    gap: 0.5rem;
+}
