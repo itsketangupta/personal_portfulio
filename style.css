@@ -42,9 +42,12 @@ nav .right {
 
 @media (max-width: 739px) {
 
-    .main_body .right img {
-        width: 200px !important;
-        height: auto;
+    .main_body .left {
+        width: 100% !important;
+    }
+
+    .main_body {
+        display: block !important;
     }
 }
 
@@ -74,6 +77,7 @@ nav .right {
     margin: 2rem 5rem;
     display: flex;
     justify-content: space-between;
+    color: #99A1AF;
 }
 
 .main_body .left {
@@ -85,4 +89,21 @@ nav .right {
 .main_body .right {
     display: flex;
     justify-content: center;
+}
+
+.summary,
+.songs {
+    margin-top: 3rem;
+}
+
+.summary a,
+.songs a {
+    text-decoration: underline;
+}
+
+@media (max-width: 323px) {
+    .main_body .right img{
+        width: 200px !important;
+        height: 230px !important;
+    }
 }
