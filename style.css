@@ -128,3 +128,70 @@ nav .right {
 .projects .card img {
     width: 100%;
 }
+
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.stats {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+}
+
+.stats .hackatime {
+    padding: 1rem;
+    width: 50%;
+}
+
+.stats .lang_card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+.stats .time_card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stats .label {
+    color: #8b949e;
+}
+
+.stats .language {
+    margin-top: 20px;
+}
+
+.stats .lang-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.stats .activity img {
+    margin-top: 20px;
+    border: 1px solid rgb(151, 151, 151);
+    padding: 5px;
+}
+
+@media (max-width: 740px) {
+    
+    .stats .lang_card,
+    .stats .time_card {
+        width: 96%;
+    }
+    
+    .stats .activity img {
+        width: 100%;
+    }
+}
+.github {
+}
