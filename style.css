@@ -102,8 +102,29 @@ nav .right {
 }
 
 @media (max-width: 323px) {
-    .main_body .right img{
+    .main_body .right img {
         width: 200px !important;
         height: 230px !important;
     }
+}
+
+.projects .card .description {
+    margin: 1rem;
+}
+
+.projects .card {
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.projects {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.projects .card img {
+    width: 100%;
 }
