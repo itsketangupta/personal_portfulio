@@ -138,9 +138,9 @@ nav .right {
 
 .stats {
     margin-top: 2rem;
-    padding: 1rem;
     width: 100%;
     display: flex;
+    color: #ebebeb;
 }
 
 .stats .hackatime {
@@ -166,6 +166,12 @@ nav .right {
     color: #8b949e;
 }
 
+.stats h2,
+.stats h3 {
+    margin-bottom: 10px;
+    color: #e3dcde;
+}
+
 .stats .language {
     margin-top: 20px;
 }
@@ -182,16 +188,43 @@ nav .right {
     padding: 5px;
 }
 
+@media (max-width: 686px) {
+    .stats {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stats .hackatime,
+    .stats .github {
+        width: 94%;
+    }
+}
+
 @media (max-width: 740px) {
-    
+
     .stats .lang_card,
     .stats .time_card {
         width: 96%;
     }
-    
-    .stats .activity img {
-        width: 100%;
-    }
+
 }
+
+.stats .activity img {
+    width: 100%;
+}
+
 .github {
+    padding: 1rem;
+    width: 50%;
+}
+
+.github .skills h3 {
+    margin-top: 1rem;
+}
+
+.github .contribute img {
+    width: 100%;
+    margin-top: 45px;
+    border: 1px solid rgb(151, 151, 151);
+    height: 150px;
 }
