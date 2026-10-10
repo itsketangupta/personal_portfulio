@@ -44,7 +44,7 @@ First of all i learned the the smol mistake can cause big thing ;) i have suffer
 
 ## Demo link 
 
-![alt text]({C921A62F-A198-41E3-830A-75A74B69880B}.png)
+![alt text](assests/{C921A62F-A198-41E3-830A-75A74B69880B}.png)
 
 [portfolio](https://itsnotketan.vercel.app/)
 
